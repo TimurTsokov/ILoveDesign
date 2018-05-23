@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: 10px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: #23232e;
+    color: #fff;
+}
+
+.logo {
+    margin: 8rem 0 18.3rem 0;
+}
+
+h1 {
+    font-size: 8rem;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+h3 {
+    padding-top: 6rem;
+    width: 45.8rem;
+    /*margin: 5.9rem 73.1rem 18.5rem 73.1rem;*/
+    margin: 0 auto;
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+
+.bg {
+    margin: 18.7rem auto 5rem;
+}
