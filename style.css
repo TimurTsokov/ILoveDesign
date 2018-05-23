@@ -51,7 +51,8 @@ main {
 
 .title {
   width: 88.8rem;
-  margin: 12rem auto 12.5rem;
+  margin: 0 auto 12.5rem;
+  padding-top: 12rem;
   font-size: 3rem;
   font-weight: normal;
   color: #464b4f;
@@ -70,21 +71,30 @@ h2 {
   text-transform: uppercase;
 }
 
+table {
+  margin: 0 auto;
+  padding-bottom: 12.5rem;
+}
 .table_th {
   font-size: 1.8rem;
   color: #464b4f;
   text-transform: uppercase;
   font-weight: bold;
+  text-align: left;
 
 }
 
+.table_th th {
+  padding-bottom: 3rem;
+}
 .title-td {
   font-size: 1.8rem;
   color: #464b4f;
   opacity: .8;
-  padding-bottom: 12.5em;
-
+  text-align: left;
 }
 
-/*1920*/
-/*1043*/
+.title-td td {
+  width: 29rem;
+  padding-right: 2rem;
+}
