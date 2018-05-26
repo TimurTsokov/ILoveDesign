@@ -10,7 +10,6 @@ html {
 
 html, body {
   min-height: 100%;
-  margin: 0;
 }
 
 header {
@@ -76,6 +75,7 @@ table {
   margin: 0 auto;
   padding-bottom: 12.5rem;
 }
+
 .table_th {
   font-size: 1.8rem;
   color: #464b4f;
@@ -88,6 +88,7 @@ table {
 .table_th th {
   padding-bottom: 3rem;
 }
+
 .title-td {
   font-size: 1.8rem;
   color: #464b4f;
