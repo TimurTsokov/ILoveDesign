@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'SegoeUI';
+  src: url('../fonts/SegoeUIBold.eot') format('eot'),
+  url('../fonts/SegoeUIBold.ttf') format('ttf'),
+  url('../fonts/SegoeUIBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'SegoeUI';
+  src: url('../fonts/SegoeUIRegular.eot') format('eot'),
+  url('../fonts/SegoeUIRegular.ttf') format('ttf'),
+  url('../fonts/SegoeUIRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 * {
   box-sizing: border-box;
 }
@@ -21,26 +41,34 @@ header {
 }
 
 .logo {
-  margin: 8rem 0 18.3rem 0;
+  margin: 8rem 0 5.3rem 0;
 }
 
 h1 {
   font-size: 8rem;
   text-transform: uppercase;
-  margin: 0 auto;
+  margin: 3.3rem auto;
 }
 
 h3 {
-  padding-top: 6rem;
+  padding-top: 3rem;
   width: 45.8rem;
-  /*margin: 5.9rem 73.1rem 18.5rem 73.1rem;*/
   margin: 0 auto;
   font-weight: normal;
   font-size: 1.8rem;
 }
 
 .bg {
-  margin: 18.7rem auto 5rem;
+  margin: 6.7rem auto 5rem;
+  /*transform: translate(0, 0);*/
+  transition: all .25s ease-in;
+}
+
+.bg:hover,
+.bg:focus {
+  transform: scale(1.2);
+  cursor: pointer;
+  color: #888a8b;
 }
 
 main {
@@ -61,6 +89,8 @@ main {
 .title p {
   text-indent: 2rem;
   text-align: center;
+  line-height: 1.7;
+
 }
 
 h2 {
@@ -71,32 +101,23 @@ h2 {
   text-transform: uppercase;
 }
 
-table {
+.ba-grid {
+  width: 70%;
   margin: 0 auto;
   padding-bottom: 12.5rem;
+  font-size: 1.8rem;
+
 }
 
-.table_th {
-  font-size: 1.8rem;
-  color: #464b4f;
+.column h3 {
   text-transform: uppercase;
   font-weight: bold;
-  text-align: left;
-
-}
-
-.table_th th {
   padding-bottom: 3rem;
-}
-
-.title-td {
-  font-size: 1.8rem;
   color: #464b4f;
-  opacity: .8;
-  text-align: left;
 }
 
-.title-td td {
-  width: 29rem;
-  padding-right: 2rem;
+.column div {
+  font-weight: normal;
+  color: #888a8b;
 }
+
